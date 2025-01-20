@@ -1,4 +1,4 @@
-# Build
+# Build && Run
 
 ### Linux:
 create directory
