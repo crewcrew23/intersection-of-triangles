@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 
 # Название проекта
-project(MyProject)
+project(Triangle_Interseption)
 
 # Установка стандарта C++
 set(CMAKE_CXX_STANDARD 20)
