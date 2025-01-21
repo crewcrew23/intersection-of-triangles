@@ -3,38 +3,42 @@
 
 #include <iostream>
 #include <vector>
-#include <locale>
-
 #include "point.h"
-#include "line.h"
 
-
-class Input
-{
+class Input {
 public:
     Input() = default;
     ~Input() = default;
 
-    void inputPoints(std::vector<Point>& points) {
-    setlocale(LC_ALL, "RUSSIAN");
-	std::cout << std::endl;
-    for (int i = 0; i < 6; ++i) {
-        Point p;
-        std::cout << "Введите координаты точки " << (i + 1) << " (формат: x y): ";
-        std::cin >> p.x >> p.y;
+    void inputPoints(std::vector<Point>& points1, std::vector<Point>& points2) {
+        for (int i = 0; i < 6; ++i) {
+            Point p;
+            std::cin >> p.x >> p.y;
 
-        if (std::cin.fail()) {
-            std::cin.clear();
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-            std::cout << "Некорректный ввод. Попробуйте еще раз.\n";
-            --i;
-            continue;
+            if (std::cin.fail()) {
+                std::cin.clear();
+                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                --i;
+                continue;
+            }
+
+            points1.push_back(p);
         }
 
-        points.push_back(p);
+        for (int i = 0; i < 6; ++i) {
+            Point p;
+            std::cin >> p.x >> p.y;
+
+            if (std::cin.fail()) {
+                std::cin.clear();
+                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                --i;
+                continue;
+            }
+
+            points2.push_back(p);
+        }
     }
-}};
+};
 
-
-
-#endif
+#endif //INPUT_H

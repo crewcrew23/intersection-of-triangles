@@ -12,5 +12,5 @@ Point Line::get_end_point()
 
 double Line::length()
 {
-    return hypot((start_point_.x - end_point_.x), (start_point_.y - end_point_.y)); // return sqr(x^2 + y^2)
+    return std::hypot((start_point_.x - end_point_.x), (start_point_.y - end_point_.y)); // return sqr(x^2 + y^2)
 }
