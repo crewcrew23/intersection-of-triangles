@@ -1,3 +1,9 @@
+# dependency for run
+you need any compiler GCC or Clang
+instaled Cmake and make
+that all! 
+
+
 # About 
 I tried to do homework from MIPT,
 where the input is a set of points as described in text.txt
