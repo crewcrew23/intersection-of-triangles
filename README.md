@@ -21,6 +21,9 @@ like that<br/>
 first 6 dots this is dots for sides of triangle 1 <br/>
 second 6 dots this is dots for sides of triangle 2<br/>
 
+## ⚠️Important⚠️
+the base of the triangle will be the first and last 2 points in the group
+
 # Build && Run
 
 ### Linux:
