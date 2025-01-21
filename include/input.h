@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <vector>
+#include <locale>
+
 #include "point.h"
 #include "line.h"
 
@@ -14,6 +16,7 @@ public:
     ~Input() = default;
 
     void inputPoints(std::vector<Point>& points) {
+    setlocale(LC_ALL, "RUSSIAN");
 	std::cout << std::endl;
     for (int i = 0; i < 6; ++i) {
         Point p;

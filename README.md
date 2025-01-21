@@ -1,26 +1,31 @@
 # Build && Run
 
 ### Linux:
+```
+mkdir build
+cd build
+cmake ./
+make
+./main
+```
+
+### Windows:
 create directory
 ```
 mkdir build
+cd build
 ```
-go to build dir
+for GCC compiler use
 ```
-cd build 
-```
-
-execute cmake 
-```
-cmake ./
+cmake -G "MinGW Makefiles" ..
 ```
 
-execute make
+for Clang compiler use
 ```
-make
+cmake -G "MinGW Makefiles" -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++ ..
 ```
 
-run
 ```
-./main
+mingw32-make
+./main.exe
 ```
