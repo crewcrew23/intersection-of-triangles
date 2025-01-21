@@ -1,5 +1,5 @@
 # dependency for run
-you need any compiler GCC or Clang
+you need any compiler GCC or Clang <br/>
 instaled Cmake and make
 that all! 
 
