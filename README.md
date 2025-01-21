@@ -6,6 +6,15 @@ you need to determine whether the triangles intersect and if they intersect, the
 
 right now the program can determine if triangles intersect (I'm not 100% sure as I haven't tested it properly yet)
 
+# Use
+run the program and enter the dots for the triangles into the terminal
+like that
+```
+0 0 0 1 0 1 1 0 0 0 1 0 1 0 1 1 1 1 0 0 1 0 0 0
+```
+first 6 dots this is dots for sides of triangle 1 
+second 6 dots this is dots for sides of triangle 2
+
 # Build && Run
 
 ### Linux:
