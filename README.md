@@ -52,4 +52,6 @@ cmake -G "MinGW Makefiles" -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
 mingw32-make
 ./main.exe
 ```
-
+# Test
+after build, in build dir you can see executabe file tests <br>
+you can run them as executable file
