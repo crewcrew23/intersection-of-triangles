@@ -21,6 +21,8 @@ like that<br/>
 first 12 dots this is dots for sides of triangle 1 <br/>
 second 12 dots this is dots for sides of triangle 2<br/>
 
+I'm not sure, but if your input data is outside the -1:1 range the program can probably milk it, but I'm not sure.
+
 # Build && Run
 
 ### Linux:
