@@ -55,5 +55,4 @@ mingw32-make
 ./main.exe
 ```
 # Test
-after build, in build dir you can see executabe file tests <br>
-you can run them as executable file
+after build, in build dir you can see executabe file tests
