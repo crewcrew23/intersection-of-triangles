@@ -9,6 +9,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Установка исполняемого файла
 add_executable(main src/main.cpp src/line.cpp src/triangle.cpp src/matrix.cpp)
+add_executable(tests  tests/e2e_tests.cpp src/line.cpp src/triangle.cpp src/matrix.cpp)
 
 # Заголовочные файлы
 include_directories(${CMAKE_SOURCE_DIR}/include)
+target_link_libraries(tests  ${CMAKE_SOURCE_DIR}/include)

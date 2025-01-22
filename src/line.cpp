@@ -1,11 +1,11 @@
 #include "../include/line.h"
 
-Point Line::get_start_point()
+Point Line::get_start_point() const
 {
     return start_point_;
 }
 
-Point Line::get_end_point()
+Point Line::get_end_point() const
 {
     return end_point_;
 }

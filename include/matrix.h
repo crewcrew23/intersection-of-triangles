@@ -9,8 +9,8 @@ public:
     Matrix() = default;
     ~Matrix() = default;
 
-    double line_point_matrix_det(Line& segment_a, const Point& point);
-    double det(double matrix[3][3]);
+    static double line_point_matrix_det(Line& segment_a, const Point& point);
+    static double det(double matrix[3][3]);
 };
 
 #endif //MATRIX_H

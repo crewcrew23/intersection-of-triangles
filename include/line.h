@@ -3,6 +3,7 @@
 
 #include "point.h"
 #include <cmath>
+#include <vector>
 
 class Line
 {
@@ -15,8 +16,8 @@ public:
 
     ~Line() = default;
 
-    Point get_start_point();
-    Point get_end_point();
+    Point get_start_point() const;
+    Point get_end_point() const;
     double length();
 };
 

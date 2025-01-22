@@ -15,7 +15,7 @@ public:
     Triangle(Line &s1, Line &s2, Line &s3);
     ~Triangle() = default;
     
-    std::vector<Line> get_lines();
+    std::vector<Line> get_lines() const;
     double square();
 };
 

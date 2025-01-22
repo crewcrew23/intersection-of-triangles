@@ -18,11 +18,8 @@ like that<br/>
 ```
 0 0 0 1 0 1 1 0 0 0 1 0 1 0 1 1 1 1 0 0 1 0 0 0
 ```
-first 6 dots this is dots for sides of triangle 1 <br/>
-second 6 dots this is dots for sides of triangle 2<br/>
-
-## ⚠️Important⚠️
-the base of the triangle will be the first and last 2 points in the group
+first 12 dots this is dots for sides of triangle 1 <br/>
+second 12 dots this is dots for sides of triangle 2<br/>
 
 # Build && Run
 
