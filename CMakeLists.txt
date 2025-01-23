@@ -21,8 +21,8 @@ SET (CMAKE_CXX_FLAGS_RELEASE_INIT        "-O3 -DNDEBUG")
 SET (CMAKE_CXX_FLAGS_RELWITHDEBINFO_INIT "-O2 -g")
 
 # Установка исполняемого файла
-add_executable(main src/main.cpp src/line.cpp src/triangle.cpp src/matrix.cpp)
-add_executable(tests  tests/e2e_tests.cpp src/line.cpp src/triangle.cpp src/matrix.cpp)
+add_executable(main src/main.cpp src/line.cpp src/triangle.cpp src/matrix.cpp src/intersection_check.cpp)
+add_executable(tests  tests/e2e_tests.cpp src/line.cpp src/triangle.cpp src/matrix.cpp src/intersection_check.cpp)
 
 # Заголовочные файлы
 include_directories(${CMAKE_SOURCE_DIR}/include)

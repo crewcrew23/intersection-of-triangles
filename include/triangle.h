@@ -16,7 +16,7 @@ public:
     ~Triangle() = default;
     
     std::vector<Line> get_lines() const;
-    double square();
+    double square() const;
 };
 
 #endif // TRIANGLE_H

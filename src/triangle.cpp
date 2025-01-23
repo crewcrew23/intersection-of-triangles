@@ -25,7 +25,7 @@ std::vector<Line> Triangle::get_lines() const{
     return sides_;
 }
 
-double Triangle::square()
+double Triangle::square() const
 {
     double p = (sides_[0].length() + sides_[1].length() + sides_[2].length()) / 2;
     double s = std::sqrt(p * (p - sides_[0].length()) * (p - sides_[1].length()) *

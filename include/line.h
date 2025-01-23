@@ -18,7 +18,7 @@ public:
 
     Point get_start_point() const;
     Point get_end_point() const;
-    double length();
+    double length() const;
 };
 
 #endif //LINE_H
