@@ -29,7 +29,7 @@ I'm not sure, but if your input data is outside the -1:1 range the program can p
 ```
 mkdir build
 cd build
-cmake ./
+cmake -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ ..
 make
 ./main
 ```
