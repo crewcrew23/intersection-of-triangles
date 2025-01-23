@@ -10,7 +10,9 @@ where the input is a set of points as described in text.txt<br/>
 from which you need to build 2 triangles and<br/>
 you need to determine whether the triangles intersect and if they intersect, then return the intersection points.<br/>
 
-right now the program can determine if triangles intersect (I'm not 100% sure as I haven't tested it properly yet)
+right now the program can determine the intersection points
+but i'm not sure about the exact range of its operation, but it should work correctly in the range from -1 to 1
+
 
 # Use
 run the program and enter the dots for the triangles into the terminal<br/>
